@@ -94,7 +94,7 @@ const UA = { "User-Agent": "ChinaCycleAdventureJournal/1.0 (github.com/Matt-McCr
 const pause = () => new Promise((r) => setTimeout(r, 1100));
 const tidy = (n: string) => n.replace(/\s+(Prefecture|City|District|County)$/i, "").trim();
 
-// Names are matched near the route first, so "@ Leigong Shan" is the mountain on the ride, not a namesake
+// Names are looked up worldwide and matched near the route first, so "@ Leigong Shan" is the mountain on the ride, not a namesake
 // elsewhere. Away from the route only well-known places count (Nominatim importance >= 0.58: Beijing 0.80,
 // Forbidden City 0.59), so an unknown village isn't pinned on a namesake in another province (Nominatim has no
 // Huanggang village, only Huanggang city in Hubei at 0.54). Not found = the post is filed by date instead.
@@ -105,7 +105,7 @@ const FAR_MIN_IMPORTANCE = 0.58;
 
 async function geocode(q: string): Promise<{ lat: number; lon: number; name: string; zh?: string } | null> {
   try {
-    const url = `https://nominatim.openstreetmap.org/search?format=json&limit=10&countrycodes=cn&namedetails=1&accept-language=en&q=${encodeURIComponent(q)}`;
+    const url = `https://nominatim.openstreetmap.org/search?format=json&limit=10&namedetails=1&accept-language=en&q=${encodeURIComponent(q)}`;
     const all: any[] = await (await fetch(url, { headers: UA })).json();
     await pause();
     const near = all.filter(inBox);

@@ -24,7 +24,9 @@ npm run build          # static site in dist/
 npm run build:single   # one self-contained HTML file in dist-single/
 ```
 
-Deep links: `#longji` (or any stop id) opens that stop; `#poster` opens poster view.
+Deep links: `#longji` (or any stop id) opens that stop; `#poster` opens poster view; `#world` opens the world view.
+
+The world view (`src/components/WorldView.tsx`, Equal Earth) is separate from the China map, whose Albers projection can't show the whole globe. Its countries come from `npx tsx app/scripts/build-world.ts` → `generated/world.topo.json`.
 
 ## Updating the itinerary
 

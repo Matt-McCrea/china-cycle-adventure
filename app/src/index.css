@@ -649,3 +649,45 @@ a { color: inherit; }
   .controls .ctrl-group + .ctrl-group { margin-top: 46px; }
   .ctrl { min-width: 40px; height: 40px; }
 }
+
+/* ------------------------------------------------------------------ world view (zoomed out past China) */
+.world { position: absolute; inset: 0; z-index: 4; background: var(--map-sea); animation: card-in 260ms ease-out; }
+.world-svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.world-svg:active { cursor: grabbing; }
+.world-svg:focus { outline: none; }
+.world-sphere { fill: color-mix(in srgb, var(--map-sea) 80%, white); stroke: var(--map-sea-line); stroke-width: 0.8; vector-effect: non-scaling-stroke; }
+.world-grat { fill: none; stroke: var(--map-grat); }
+.world-land { fill: var(--map-land-other); stroke: var(--map-border); }
+.world-focus { fill: var(--map-land); stroke: var(--map-border-focus); }
+.world-route { fill: none; stroke: var(--map-bike, var(--map-rail)); stroke-linecap: round; stroke-linejoin: round; }
+.world-route.is-local { stroke: var(--map-local); }
+.world-route.is-rail { stroke: var(--map-rail); }
+.world-trip circle { fill: var(--ink); stroke: var(--map-paper); stroke-width: 0.5; }
+.world-trip text { font-family: var(--f-display); font-weight: 700; letter-spacing: 0.04em; fill: var(--ink); paint-order: stroke; stroke: var(--map-land); stroke-width: 3px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.world-pin { cursor: pointer; }
+.world-pin circle:not(.world-pin-hit) { fill: var(--map-actual); stroke: var(--map-paper); stroke-width: 2; }
+.world-pin-hit { fill: transparent; }
+.world-pin:hover circle:not(.world-pin-hit), .world-pin:focus-visible circle:not(.world-pin-hit) { fill: var(--map-hi); }
+.world-pin:focus { outline: none; }
+.world-tip {
+  position: absolute; z-index: 2; pointer-events: none; display: flex; flex-direction: column; gap: 2px; max-width: 240px;
+  padding: 7px 9px; background: var(--paper-2); border: 1px solid var(--rule); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.world-tip b { font: 700 13px/1.2 var(--f-display); }
+.world-tip small { font: 500 10px/1.3 var(--f-mono); color: var(--accent); }
+.world-bar {
+  position: absolute; left: 16px; right: 16px; bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: flex-end; pointer-events: none;
+}
+.world-bar > * { pointer-events: auto; }
+.world-note {
+  margin: 0 auto 0 0; padding: 6px 10px; border-radius: var(--radius);
+  background: color-mix(in srgb, var(--paper-2) 85%, transparent); backdrop-filter: blur(4px);
+  font: 500 11px/1.4 var(--f-mono); color: var(--ink-2);
+}
+.world-note b { color: var(--ink); text-transform: uppercase; letter-spacing: 0.08em; }
+@media (max-width: 720px) {
+  .world-bar { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+  .world-note { flex-basis: 100%; }
+}
+.legend-dock[hidden] { display: none; }

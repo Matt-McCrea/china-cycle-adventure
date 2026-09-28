@@ -46,7 +46,7 @@ By default a post goes under the stop where we sleep that night (a post sent whi
 
 A stop tag only chooses the card. Coordinates (or a photo's location) still place the exact pin.
 
-**Anywhere else:** `@` plus any place name (`@ Leigong Shan`, `@ Xijiang`, `@ 雷公山`) looks the place up on OpenStreetMap, preferring matches near the route, pins the post there and names it on the map in blue. Away from the route, well-known places work too (`@ Beijing`, `@ Forbidden City`). Small villages OpenStreetMap doesn't know (Huanggang, for one) keep the name but get no pin, so add coordinates for those. Zoom out (− or the globe button) to see posts from anywhere in China. Posts with coordinates or a photo location get their place name looked up automatically. A number that isn't a stop (`@ stop 14`) is ignored and the post is filed by date.
+**Anywhere else:** `@` plus any place name (`@ Leigong Shan`, `@ Xijiang`, `@ 雷公山`) looks the place up on OpenStreetMap, preferring matches near the route, pins the post there and names it on the map in blue. Away from the route, well-known places anywhere in the world work too (`@ Beijing`, `@ Forbidden City`, `@ Dublin`). Small villages OpenStreetMap doesn't know (Huanggang, for one) keep the name but get no pin, so add coordinates for those. Zoom out (− or the globe button) for the world view, which shows posts from anywhere. Posts with coordinates or a photo location get their place name looked up automatically. A number that isn't a stop (`@ stop 14`) is ignored and the post is filed by date.
 
 ## Fix a mistake
 

@@ -280,9 +280,9 @@ export class MapEngine {
     this.sel.transition().duration(reducedMotion() ? 0 : 350).call(this.zoomer.scaleBy, f);
   }
 
-  /** The whole of China in one view. */
-  fitChina(animate = true) {
-    return this.flyToBox(WORLD_EXTENT, animate ? 900 : 0);
+  /** True when the map can't zoom out any further (the next step out is the world view). */
+  atMinZoom() {
+    return this.t.k <= this.zoomer.scaleExtent()[0] * 1.02;
   }
 
   fitAll(animate = true) {

@@ -6,6 +6,7 @@ import { SEGMENTS, STOPS, TRIP } from "./data/itinerary";
 import { dateRange } from "./data/format";
 import { StopCard, LegLine, type SegLengths } from "./components/StopCard";
 import { JournalButton, JournalPanel, NewPopup, PostViewer, timeAgo } from "./components/Journal";
+import { WorldView } from "./components/WorldView";
 import type { JournalEntry, JournalFile } from "./data/journal";
 import { project } from "./map/routeModel";
 
@@ -63,6 +64,8 @@ export default function App() {
   const [openPost, setOpenPost] = useState<string | null>(null);
   const [news, setNews] = useState<{ posts: JournalEntry[]; first: boolean } | null>(null);
   const [journalOpen, setJournalOpen] = useState(false);
+  /** zoomed out past China: the whole world, for posts from anywhere */
+  const [worldOpen, setWorldOpen] = useState(() => window.location.hash === "#world");
   /** posts that are new to this visitor (since their last visit; for a first visit, the last 3 days) */
   const [freshIds, setFreshIds] = useState<Set<string>>(new Set());
   // first visit (and no deep link): introduce the map before anything else
@@ -288,7 +291,15 @@ export default function App() {
     engine.current!.fitAll();
   };
 
+  const openWorld = () => {
+    if (playing) pause();
+    select(null, false);
+    setPinnedSeg(null);
+    setWorldOpen(true);
+  };
+
   const togglePoster = (on = !poster) => {
+    if (on) setWorldOpen(false);
     if (playing) pause();
     engine.current?.setReveal(null);
     setPoster(on);
@@ -319,12 +330,12 @@ export default function App() {
       return;
     }
     try {
-      const h = poster ? "#poster" : openPost ? `#post:${openPost}` : active ? `#${active}` : " ";
+      const h = poster ? "#poster" : openPost ? `#post:${openPost}` : worldOpen ? "#world" : active ? `#${active}` : " ";
       history.replaceState(null, "", h === " " ? window.location.pathname + window.location.search : h);
     } catch {
       /* sandboxed viewers may block history writes */
     }
-  }, [active, poster, openPost]);
+  }, [active, poster, openPost, worldOpen]);
 
   const stop = STOPS.find((s) => s.id === active) ?? null;
   const seg = pinnedSeg ?? hoverSeg;
@@ -403,7 +414,9 @@ export default function App() {
           );
         })()}
 
-        {!poster && (
+        {worldOpen && !poster && <WorldView posts={posts} onOpenPost={showPost} onClose={() => setWorldOpen(false)} />}
+
+        {!poster && !worldOpen && (
           <div className="controls" data-map-ui data-map-reserve>
             <div className="ctrl-group" role="group" aria-label="Journey playback">
               {playing ? (
@@ -431,13 +444,13 @@ export default function App() {
               <button type="button" className="ctrl" onClick={() => engine.current?.zoomBy(1.8)} aria-label="Zoom in">
                 <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" /></svg>
               </button>
-              <button type="button" className="ctrl" onClick={() => engine.current?.zoomBy(1 / 1.8)} aria-label="Zoom out">
+              <button type="button" className="ctrl" onClick={() => (engine.current?.atMinZoom() ? openWorld() : engine.current?.zoomBy(1 / 1.8))} aria-label="Zoom out">
                 <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10" /></svg>
               </button>
               <button type="button" className="ctrl" onClick={() => { select(null, false); engine.current?.setPadding(padFor(false)); engine.current?.fitAll(); }} aria-label="Fit whole route" title="Whole route">
                 <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4" /></svg>
               </button>
-              <button type="button" className="ctrl" onClick={() => { select(null, false); engine.current?.setPadding(padFor(false)); engine.current?.fitChina(); }} aria-label="Zoom out to all of China" title="All of China">
+              <button type="button" className="ctrl" onClick={openWorld} aria-label="Show the whole world" title="Whole world">
                 <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" /><path d="M2 8h12M8 2c-2.2 2.2-2.2 9.8 0 12M8 2c2.2 2.2 2.2 9.8 0 12" /></svg>
               </button>
               {mobile && (
@@ -449,7 +462,7 @@ export default function App() {
           </div>
         )}
 
-        <div className={`legend-dock ${legendOpen ? "is-open" : ""}`} data-map-ui data-map-reserve>
+        <div className={`legend-dock ${legendOpen ? "is-open" : ""}`} data-map-ui data-map-reserve hidden={worldOpen && !poster}>
           {mobile && !poster && (
             <button type="button" className="chip legend-toggle" aria-expanded={legendOpen} aria-controls="legend" onClick={() => setLegendOpen(!legendOpen)}>
               Legend
@@ -515,7 +528,7 @@ export default function App() {
           </div>
         )}
 
-        {stop && !poster && (
+        {stop && !poster && !worldOpen && (
           <StopCard
             key={stop.id}
             stop={stop}
@@ -556,7 +569,7 @@ function Welcome({ posts, onClose, onOpenJournal }: { posts: JournalEntry[]; onC
         <h2 id="welcome-title" className="welcome-title">Hello from P2N Cyclists in China! This is our cycle route through Guizhou and Guangxi.</h2>
         <p className="welcome-lede">{TRIP.strap}</p>
         <ul className="welcome-list">
-          <li><b>Zoom out</b> with − or the globe button to see all of China, for posts from anywhere else (like Beijing).</li>
+          <li><b>Zoom out</b> with −, or tap the globe, for the whole world: posts from anywhere (Beijing, or home) show up there too.</li>
           <li><b>Tap a numbered stop</b> to see where we sleep each night, and that day's ride: distance, climbing and what's on the way.</li>
           <li><b>Press Play journey</b> to watch the whole route unfold, Guiyang to Yangshuo.</li>
           <li><b>Updates from the road</b> pop up here the next time you open this page. They also appear as <span className="welcome-pin" aria-hidden="true" /> pins, and the dotted line shows where we've actually been.</li>
