@@ -550,7 +550,7 @@ function Welcome({ posts, onClose, onOpenJournal }: { posts: JournalEntry[]; onC
         onKeyDown={(e) => e.key === "Escape" && onClose()}
       >
         <p className="post-kicker">10–19 October 2026 · {TRIP.totals.ridingDays} riding days · {TRIP.totals.km} km</p>
-        <h2 id="welcome-title" className="welcome-title">Hello from Kieran and friends! This is our cycle route through Guizhou and Guangxi.</h2>
+        <h2 id="welcome-title" className="welcome-title">Hello from P2N Cyclists in China! This is our cycle route through Guizhou and Guangxi.</h2>
         <p className="welcome-lede">{TRIP.strap}</p>
         <ul className="welcome-list">
           <li><b>Tap a numbered stop</b> to see where we sleep each night, and that day's ride: distance, climbing and what's on the way.</li>
