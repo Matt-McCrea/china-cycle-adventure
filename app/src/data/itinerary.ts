@@ -20,6 +20,8 @@ export const TRIP = {
   /** planner totals (the image of the brief); the map draws the road alignment */
   totals: { km: 508, climbM: 7240, ridingDays: 8, days: 10 },
   operator: "BikeAsia custom tour",
+  /** journal inbox: riders on the approved list email posts here (see POSTING.md) */
+  journalEmail: "chinacycleadventure@gmail.com",
 };
 
 export const CHAPTERS: Chapter[] = [

@@ -559,6 +559,21 @@ function Welcome({ posts, onClose, onOpenJournal }: { posts: JournalEntry[]; onC
           <li><b>The red line is the ride.</b> It follows the roads, so it's a close guide rather than the exact track. The distances and climbing come from the tour's route planner.</li>
           <li>Signal will be patchy in the mountain villages, so a quiet day or two usually just means no signal (or tired legs).</li>
         </ul>
+        <section className="welcome-post" aria-labelledby="welcome-post-title">
+          <h3 id="welcome-post-title">Posting to the journal (riders)</h3>
+          <p>
+            Email <a href={`mailto:${TRIP.journalEmail}`}>{TRIP.journalEmail}</a> from your own address. The subject is the title,
+            the text is the post, and attached photos are added. It appears here within about 20 minutes. No signal? Send anyway: it goes when you're back online.
+          </p>
+          <p><b>Put it on the map</b> with a line in the email:</p>
+          <ul className="welcome-list">
+            <li><code>@ 26.0415, 108.6394</code> pins it exactly. The Compass app shows your coordinates, even with no signal.</li>
+            <li><code>@ Leigong Shan</code> (any place name) finds it on the map. Tiny villages may not be found, so use coordinates for those.</li>
+            <li><code>@ stop 6</code> files it under that night's stop (the numbers on the map).</li>
+            <li>No tag? A photo's own location is used if it has one, otherwise the post goes under that day's stop.</li>
+          </ul>
+          <p className="welcome-note">Gmail doesn't work in China without a VPN or roaming eSIM. To remove a post, email the subject <code>HIDE</code> followed by its exact title.</p>
+        </section>
         <p className="welcome-status">
           {latest ? (
             <>Latest post: <b>{latest.title}</b>, {timeAgo(latest.date)}. </>

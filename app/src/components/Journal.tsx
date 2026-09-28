@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import type { JournalEntry } from "../data/journal";
-import { STOPS } from "../data/itinerary";
+import { STOPS, TRIP } from "../data/itinerary";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -167,6 +167,7 @@ export function JournalPanel({ posts, onOpen, onClose }: { posts: JournalEntry[]
           <p className="post-kicker">From the road · {posts.length} {posts.length === 1 ? "post" : "posts"}</p>
           <h2 id="jp-title" className="jd-title">Journal</h2>
           {list[0] && <p className="news-sub">Latest {timeAgo(list[0].date)}</p>}
+          <p className="jd-post">Riders: email posts and photos to <a href={`mailto:${TRIP.journalEmail}`}>{TRIP.journalEmail}</a>. Map tags are explained under "How this works".</p>
         </div>
         <button type="button" className="icon-btn" onClick={onClose} aria-label="Close journal">
           <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" /></svg>

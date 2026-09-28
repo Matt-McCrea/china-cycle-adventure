@@ -506,6 +506,15 @@ a { color: inherit; }
 .welcome-list li { position: relative; padding-left: 16px; font-size: 14px; line-height: 1.45; }
 .welcome-list li::before { content: ""; position: absolute; left: 1px; top: 0.66em; width: 7px; height: 1px; background: var(--accent); }
 .welcome-pin { display: inline-block; width: 11px; height: 11px; vertical-align: -1px; border-radius: 50%; background: var(--map-actual); box-shadow: inset 0 0 0 2.5px var(--map-actual), inset 0 0 0 5px var(--map-paper); }
+.welcome-post { margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 14px; line-height: 1.45; }
+.welcome-post h3 { margin: 0 0 8px; font: 600 10px/1 var(--f-mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+.welcome-post p { margin: 0 0 8px; }
+.welcome-post a { color: var(--map-actual); font-weight: 600; word-break: break-all; }
+.welcome-post code { font: 500 12px/1 var(--f-mono); background: color-mix(in srgb, var(--ink) 7%, transparent); padding: 2px 4px; border-radius: 2px; white-space: nowrap; }
+.welcome-post .welcome-list { margin-bottom: 8px; }
+.jd-post { margin: 6px 0 0; font-size: 12px; color: var(--ink-2); }
+.jd-post a { color: var(--map-actual); font-weight: 600; word-break: break-all; }
+.welcome-note { font-size: 12.5px; color: var(--ink-2); }
 .welcome-status { margin: 16px 0 0; padding-top: 12px; border-top: 1px dashed var(--rule); font: 500 11px/1.5 var(--f-mono); color: var(--ink-2); }
 .welcome-actions { display: flex; align-items: center; gap: 18px; margin-top: 14px; flex-wrap: wrap; }
 .welcome-go {
