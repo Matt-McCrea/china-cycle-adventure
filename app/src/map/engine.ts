@@ -280,6 +280,11 @@ export class MapEngine {
     this.sel.transition().duration(reducedMotion() ? 0 : 350).call(this.zoomer.scaleBy, f);
   }
 
+  /** The whole of China in one view. */
+  fitChina(animate = true) {
+    return this.flyToBox(WORLD_EXTENT, animate ? 900 : 0);
+  }
+
   fitAll(animate = true) {
     const pts = [...STOP_XY.values()];
     for (const r of this.routes) pts.push(r.bbox[0], r.bbox[1]);
@@ -363,8 +368,10 @@ export class MapEngine {
     for (const rt of this.routes) pts.push(rt.bbox[0], rt.bbox[1]);
     this.fitK = this.fitTransform(this.bboxOf(pts)).k;
     const [[x0, y0], [x1, y1]] = WORLD_EXTENT;
+    // zoom out as far as the whole of China (posts can come from anywhere, e.g. Beijing on the way home)
+    const chinaK = this.fitTransform(WORLD_EXTENT).k;
     this.zoomer
-      .scaleExtent([this.fitK * MAP_CONFIG.zoom.min, this.fitK * MAP_CONFIG.zoom.max])
+      .scaleExtent([Math.min(this.fitK * MAP_CONFIG.zoom.min, chinaK), this.fitK * MAP_CONFIG.zoom.max])
       .translateExtent([[x0 - 200, y0 - 200], [x1 + 200, y1 + 200]])
       .extent([[0, 0], [this.W, this.H]]);
     this.refreshReserved();

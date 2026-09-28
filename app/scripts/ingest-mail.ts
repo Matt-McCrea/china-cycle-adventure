@@ -95,25 +95,33 @@ const pause = () => new Promise((r) => setTimeout(r, 1100));
 const tidy = (n: string) => n.replace(/\s+(Prefecture|City|District|County)$/i, "").trim();
 
 // Names are matched near the route first, so "@ Leigong Shan" is the mountain on the ride, not a namesake
-// elsewhere. A match more than 400 km from every stop counts as not found (the post is filed by date instead
-// of being pinned in the wrong province: Nominatim has no Huanggang village, only Huanggang city in Hubei).
+// elsewhere. Away from the route only well-known places count (Nominatim importance >= 0.58: Beijing 0.80,
+// Forbidden City 0.59), so an unknown village isn't pinned on a namesake in another province (Nominatim has no
+// Huanggang village, only Huanggang city in Hubei at 0.54). Not found = the post is filed by date instead.
 const lons = STOPS.map((s) => s.longitude), lats = STOPS.map((s) => s.latitude);
 const BOX = { w: Math.min(...lons) - 0.5, e: Math.max(...lons) + 0.5, s: Math.min(...lats) - 0.5, n: Math.max(...lats) + 0.5 };
 const inBox = (r: any) => +r.lon >= BOX.w && +r.lon <= BOX.e && +r.lat >= BOX.s && +r.lat <= BOX.n;
-const kmToRoute = (lat: number, lon: number) =>
-  Math.min(...STOPS.map((s) => 111.2 * Math.hypot(s.latitude - lat, (s.longitude - lon) * Math.cos((lat * Math.PI) / 180))));
+const FAR_MIN_IMPORTANCE = 0.58;
 
 async function geocode(q: string): Promise<{ lat: number; lon: number; name: string; zh?: string } | null> {
   try {
     const url = `https://nominatim.openstreetmap.org/search?format=json&limit=10&countrycodes=cn&namedetails=1&accept-language=en&q=${encodeURIComponent(q)}`;
     const all: any[] = await (await fetch(url, { headers: UA })).json();
     await pause();
-    const res = all.some(inBox) ? all.filter(inBox) : all;
-    // prefer actual towns/sights over administrative areas (a prefecture's centre can be 100+ km from its city)
-    const rank = (r: any) => ["place", "tourism", "historic", "natural", "water", "waterway", "leisure", "amenity"].indexOf(r.class);
-    const hit = res.filter((r) => rank(r) >= 0).sort((a, b) => rank(a) - rank(b))[0] ?? res.find((r) => r.class === "boundary");
-    if (!hit || kmToRoute(+hit.lat, +hit.lon) > 400) return null;
-    return { lat: +hit.lat, lon: +hit.lon, name: tidy(hit.namedetails?.["name:en"] || hit.display_name.split(",")[0]), zh: hit.namedetails?.["name:zh"] || hit.namedetails?.name };
+    const near = all.filter(inBox);
+    let hit: any;
+    if (near.length) {
+      // prefer actual towns/sights over administrative areas (a prefecture's centre can be 100+ km from its city)
+      const rank = (r: any) => ["place", "tourism", "historic", "natural", "water", "waterway", "leisure", "amenity"].indexOf(r.class);
+      hit = near.filter((r) => rank(r) >= 0).sort((a, b) => rank(a) - rank(b))[0] ?? near.find((r) => r.class === "boundary");
+    } else {
+      hit = [...all].sort((a, b) => (b.importance ?? 0) - (a.importance ?? 0))[0];
+      if (hit && (hit.importance ?? 0) < FAR_MIN_IMPORTANCE) hit = null;
+    }
+    if (!hit) return null;
+    const raw = hit.namedetails?.["name:en"] || hit.display_name.split(",")[0];
+    // "Guilin City" → "Guilin", but "Forbidden City" stays whole
+    return { lat: +hit.lat, lon: +hit.lon, name: hit.type === "administrative" || hit.class === "place" ? tidy(raw) : raw, zh: hit.namedetails?.["name:zh"] || hit.namedetails?.name };
   } catch {
     return null;
   }

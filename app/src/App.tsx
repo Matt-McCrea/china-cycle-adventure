@@ -437,6 +437,9 @@ export default function App() {
               <button type="button" className="ctrl" onClick={() => { select(null, false); engine.current?.setPadding(padFor(false)); engine.current?.fitAll(); }} aria-label="Fit whole route" title="Whole route">
                 <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4" /></svg>
               </button>
+              <button type="button" className="ctrl" onClick={() => { select(null, false); engine.current?.setPadding(padFor(false)); engine.current?.fitChina(); }} aria-label="Zoom out to all of China" title="All of China">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" /><path d="M2 8h12M8 2c-2.2 2.2-2.2 9.8 0 12M8 2c2.2 2.2 2.2 9.8 0 12" /></svg>
+              </button>
               {mobile && (
                 <button type="button" className="ctrl" onClick={() => togglePoster(true)} aria-label="Poster view" title="Poster view">
                   <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="2" width="11" height="12" rx="1" /><path d="M5 11l2-3 2 2 2-3" /></svg>
@@ -553,6 +556,7 @@ function Welcome({ posts, onClose, onOpenJournal }: { posts: JournalEntry[]; onC
         <h2 id="welcome-title" className="welcome-title">Hello from P2N Cyclists in China! This is our cycle route through Guizhou and Guangxi.</h2>
         <p className="welcome-lede">{TRIP.strap}</p>
         <ul className="welcome-list">
+          <li><b>Zoom out</b> with − or the globe button to see all of China, for posts from anywhere else (like Beijing).</li>
           <li><b>Tap a numbered stop</b> to see where we sleep each night, and that day's ride: distance, climbing and what's on the way.</li>
           <li><b>Press Play journey</b> to watch the whole route unfold, Guiyang to Yangshuo.</li>
           <li><b>Updates from the road</b> pop up here the next time you open this page. They also appear as <span className="welcome-pin" aria-hidden="true" /> pins, and the dotted line shows where we've actually been.</li>
