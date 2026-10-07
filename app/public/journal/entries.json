@@ -1,8 +1,9 @@
 {
  "seen": [
-  "499ed7749303215a3fa92eedc2b48688151a988e9f40782073d2c42dd6871d3e"
+  "499ed7749303215a3fa92eedc2b48688151a988e9f40782073d2c42dd6871d3e",
+  "f7f739c5c9e3a1f9253a66a341ebf2b7da436755d82d7207b0ce359146caaab1"
  ],
- "updated": "2026-09-28T20:10:18.879Z",
+ "updated": "2026-10-07T07:27:54.372Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -19,6 +20,24 @@
      "thumb": "journal/img/2026-09-29-499ed7-1-t.jpg",
      "w": 1158,
      "h": 1544
+    }
+   ]
+  },
+  {
+   "id": "2026-10-07-f7f739",
+   "date": "2026-10-07T07:27:17.000Z",
+   "title": "Arrived in Beijing!!",
+   "text": "",
+   "lat": 26.5876,
+   "lon": 106.7088,
+   "locSource": "plan",
+   "stopId": "guiyang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-07-f7f739-1.jpg",
+     "thumb": "journal/img/2026-10-07-f7f739-1-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
