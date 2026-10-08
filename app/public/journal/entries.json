@@ -2,9 +2,10 @@
  "seen": [
   "499ed7749303215a3fa92eedc2b48688151a988e9f40782073d2c42dd6871d3e",
   "f7f739c5c9e3a1f9253a66a341ebf2b7da436755d82d7207b0ce359146caaab1",
-  "768eceb19e0de016d06fb27c40e4bac9c26c2082037a50f90bf2674cb7374788"
+  "768eceb19e0de016d06fb27c40e4bac9c26c2082037a50f90bf2674cb7374788",
+  "69d5a92e84348c801c681ea6f72a669cfe6c5ac83082eda83ab4a454a4545c65"
  ],
- "updated": "2026-10-08T02:42:58.478Z",
+ "updated": "2026-10-08T04:18:37.748Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -57,6 +58,24 @@
      "thumb": "journal/img/2026-10-08-768ece-1-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-08-69d5a9",
+   "date": "2026-10-08T04:11:51.000Z",
+   "title": "Tiananmen Square",
+   "text": "",
+   "lat": 26.5876,
+   "lon": 106.7088,
+   "locSource": "plan",
+   "stopId": "guiyang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-08-69d5a9-1.jpg",
+     "thumb": "journal/img/2026-10-08-69d5a9-1-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
