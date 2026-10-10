@@ -4,9 +4,10 @@
   "f7f739c5c9e3a1f9253a66a341ebf2b7da436755d82d7207b0ce359146caaab1",
   "768eceb19e0de016d06fb27c40e4bac9c26c2082037a50f90bf2674cb7374788",
   "69d5a92e84348c801c681ea6f72a669cfe6c5ac83082eda83ab4a454a4545c65",
-  "65229031680718662b49573f6573f481ed1ca0d0b4fa2087800cfa8d5df6ec89"
+  "65229031680718662b49573f6573f481ed1ca0d0b4fa2087800cfa8d5df6ec89",
+  "2b141a7e1d8070858ab7c88aed381f3637e77df282a26e429833118a68feaa8f"
  ],
- "updated": "2026-10-08T04:37:58.518Z",
+ "updated": "2026-10-10T07:40:03.190Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -95,6 +96,24 @@
      "thumb": "journal/img/2026-10-08-652290-1-t.jpg",
      "w": 1200,
      "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-10-2b141a",
+   "date": "2026-10-10T07:37:17.000Z",
+   "title": "The Great Wall",
+   "text": "",
+   "lat": 26.5876,
+   "lon": 106.7088,
+   "locSource": "plan",
+   "stopId": "guiyang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-10-2b141a-1.jpg",
+     "thumb": "journal/img/2026-10-10-2b141a-1-t.jpg",
+     "w": 960,
+     "h": 1280
     }
    ]
   }
