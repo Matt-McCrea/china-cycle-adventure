@@ -9,9 +9,10 @@
   "e78101121c01996f36c2312c026ab5e9b69df0e7156fc8d24732d1aa25847a51",
   "c85f5e8ddcfcc482fa078a838f9a5425aeaafb5d5be6c9bb3356af191f7336ed",
   "08d478ff591d1978279eb9442383ace67ca6b67e1bc8d3249154e22dd2a1e70c",
-  "b307ef606f702f174efd1704cf2c864454ddb4044db21d907fc78c107ecf31c2"
+  "b307ef606f702f174efd1704cf2c864454ddb4044db21d907fc78c107ecf31c2",
+  "78dff1b6c74cf0b9d0bb3189d6739cfb536a13b7b312d91dd93a86e50af1b474"
  ],
- "updated": "2026-10-11T10:02:49.388Z",
+ "updated": "2026-10-11T10:08:04.509Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -196,6 +197,42 @@
      "thumb": "journal/img/2026-10-11-b307ef-1-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-11-78dff1",
+   "date": "2026-10-11T10:07:25.000Z",
+   "title": "Baiyan Village",
+   "text": "",
+   "lat": 26.355,
+   "lon": 108.14,
+   "locSource": "plan",
+   "stopId": "baiyan",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-11-78dff1-1.jpg",
+     "thumb": "journal/img/2026-10-11-78dff1-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-11-78dff1-2.jpg",
+     "thumb": "journal/img/2026-10-11-78dff1-2-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-11-78dff1-3.jpg",
+     "thumb": "journal/img/2026-10-11-78dff1-3-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-11-78dff1-4.jpg",
+     "thumb": "journal/img/2026-10-11-78dff1-4-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
