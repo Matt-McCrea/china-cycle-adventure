@@ -8,9 +8,10 @@
   "2b141a7e1d8070858ab7c88aed381f3637e77df282a26e429833118a68feaa8f",
   "e78101121c01996f36c2312c026ab5e9b69df0e7156fc8d24732d1aa25847a51",
   "c85f5e8ddcfcc482fa078a838f9a5425aeaafb5d5be6c9bb3356af191f7336ed",
-  "08d478ff591d1978279eb9442383ace67ca6b67e1bc8d3249154e22dd2a1e70c"
+  "08d478ff591d1978279eb9442383ace67ca6b67e1bc8d3249154e22dd2a1e70c",
+  "b307ef606f702f174efd1704cf2c864454ddb4044db21d907fc78c107ecf31c2"
  ],
- "updated": "2026-10-11T10:01:48.483Z",
+ "updated": "2026-10-11T10:02:49.388Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -175,6 +176,24 @@
     {
      "src": "journal/img/2026-10-11-08d478-1.jpg",
      "thumb": "journal/img/2026-10-11-08d478-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-11-b307ef",
+   "date": "2026-10-11T10:01:53.000Z",
+   "title": "After Kevin fell in the pool",
+   "text": "",
+   "lat": 26.355,
+   "lon": 108.14,
+   "locSource": "plan",
+   "stopId": "baiyan",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-11-b307ef-1.jpg",
+     "thumb": "journal/img/2026-10-11-b307ef-1-t.jpg",
      "w": 1600,
      "h": 1200
     }
