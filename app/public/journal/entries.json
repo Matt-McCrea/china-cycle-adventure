@@ -6,9 +6,11 @@
   "69d5a92e84348c801c681ea6f72a669cfe6c5ac83082eda83ab4a454a4545c65",
   "65229031680718662b49573f6573f481ed1ca0d0b4fa2087800cfa8d5df6ec89",
   "2b141a7e1d8070858ab7c88aed381f3637e77df282a26e429833118a68feaa8f",
-  "e78101121c01996f36c2312c026ab5e9b69df0e7156fc8d24732d1aa25847a51"
+  "e78101121c01996f36c2312c026ab5e9b69df0e7156fc8d24732d1aa25847a51",
+  "c85f5e8ddcfcc482fa078a838f9a5425aeaafb5d5be6c9bb3356af191f7336ed",
+  "08d478ff591d1978279eb9442383ace67ca6b67e1bc8d3249154e22dd2a1e70c"
  ],
- "updated": "2026-10-11T00:56:08.092Z",
+ "updated": "2026-10-11T10:01:48.483Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -139,6 +141,42 @@
      "h": 1200,
      "lat": 26.622700000000002,
      "lon": 106.67358333333334
+    }
+   ]
+  },
+  {
+   "id": "2026-10-11-c85f5e",
+   "date": "2026-10-11T10:00:04.000Z",
+   "title": "Setting off Day 1 - Kaili South",
+   "text": "",
+   "lat": 26.355,
+   "lon": 108.14,
+   "locSource": "plan",
+   "stopId": "baiyan",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-11-c85f5e-1.jpg",
+     "thumb": "journal/img/2026-10-11-c85f5e-1-t.jpg",
+     "w": 1600,
+     "h": 739
+    }
+   ]
+  },
+  {
+   "id": "2026-10-11-08d478",
+   "date": "2026-10-11T10:00:42.000Z",
+   "title": "Update from Baiyan Village",
+   "text": "",
+   "lat": 26.355,
+   "lon": 108.14,
+   "locSource": "plan",
+   "stopId": "baiyan",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-11-08d478-1.jpg",
+     "thumb": "journal/img/2026-10-11-08d478-1-t.jpg",
+     "w": 1600,
+     "h": 1200
     }
    ]
   }
