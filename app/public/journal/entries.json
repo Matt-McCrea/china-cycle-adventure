@@ -5,9 +5,10 @@
   "768eceb19e0de016d06fb27c40e4bac9c26c2082037a50f90bf2674cb7374788",
   "69d5a92e84348c801c681ea6f72a669cfe6c5ac83082eda83ab4a454a4545c65",
   "65229031680718662b49573f6573f481ed1ca0d0b4fa2087800cfa8d5df6ec89",
-  "2b141a7e1d8070858ab7c88aed381f3637e77df282a26e429833118a68feaa8f"
+  "2b141a7e1d8070858ab7c88aed381f3637e77df282a26e429833118a68feaa8f",
+  "e78101121c01996f36c2312c026ab5e9b69df0e7156fc8d24732d1aa25847a51"
  ],
- "updated": "2026-10-10T07:40:03.190Z",
+ "updated": "2026-10-11T00:56:08.092Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -114,6 +115,30 @@
      "thumb": "journal/img/2026-10-10-2b141a-1-t.jpg",
      "w": 960,
      "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "2026-10-11-e78101",
+   "date": "2026-10-11T00:54:36.000Z",
+   "title": "Setting off Day 1 - Guiyand train station",
+   "text": "",
+   "lat": 26.622700000000002,
+   "lon": 106.67358333333334,
+   "locSource": "photo",
+   "stopId": "baiyan",
+   "place": {
+    "name": "Guanshanhu",
+    "zh": "观山湖区"
+   },
+   "photos": [
+    {
+     "src": "journal/img/2026-10-11-e78101-1.jpg",
+     "thumb": "journal/img/2026-10-11-e78101-1-t.jpg",
+     "w": 1600,
+     "h": 1200,
+     "lat": 26.622700000000002,
+     "lon": 106.67358333333334
     }
    ]
   }
