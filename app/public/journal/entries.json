@@ -13,9 +13,10 @@
   "78dff1b6c74cf0b9d0bb3189d6739cfb536a13b7b312d91dd93a86e50af1b474",
   "5719142be20d408cc01269fbd7feca7e06e551aeca8a03786da0ee10ca9da2fb",
   "f72d7f60e314f7fbd1a21d0b236583b34954a52fbcdddde9ff7548c034156251",
-  "470ae015f85c534367e8afafb1f602c51c28fe6b3c7bd6cda344433c1eb722ae"
+  "470ae015f85c534367e8afafb1f602c51c28fe6b3c7bd6cda344433c1eb722ae",
+  "172afb73492e19b416ab47202cbba6a76b0a5ac8d12a6ca147cbc56335959402"
  ],
- "updated": "2026-10-12T03:58:45.113Z",
+ "updated": "2026-10-12T04:17:01.214Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -350,6 +351,24 @@
      "thumb": "journal/img/2026-10-12-470ae0-11-t.jpg",
      "w": 480,
      "h": 640
+    }
+   ]
+  },
+  {
+   "id": "2026-10-12-172afb",
+   "date": "2026-10-12T04:16:47.000Z",
+   "title": "Update from Leli",
+   "text": "",
+   "lat": 26.2256,
+   "lon": 108.409,
+   "locSource": "plan",
+   "stopId": "leli",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-12-172afb-1.jpg",
+     "thumb": "journal/img/2026-10-12-172afb-1-t.jpg",
+     "w": 1291,
+     "h": 1299
     }
    ]
   }
