@@ -15,9 +15,10 @@
   "f72d7f60e314f7fbd1a21d0b236583b34954a52fbcdddde9ff7548c034156251",
   "470ae015f85c534367e8afafb1f602c51c28fe6b3c7bd6cda344433c1eb722ae",
   "172afb73492e19b416ab47202cbba6a76b0a5ac8d12a6ca147cbc56335959402",
-  "ac33c9822fdc4d4827fd3aedde81e2feef6f165e9db19b60225fb9180582ee85"
+  "ac33c9822fdc4d4827fd3aedde81e2feef6f165e9db19b60225fb9180582ee85",
+  "600b4312cd8175c3ace711db482f8247e735afc66fcaa946ebcdf41ab005f82e"
  ],
- "updated": "2026-10-12T04:49:19.900Z",
+ "updated": "2026-10-12T08:01:19.754Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -472,6 +473,54 @@
      "thumb": "journal/img/2026-10-12-ac33c9-15-t.jpg",
      "w": 739,
      "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-12-600b43",
+   "date": "2026-10-12T07:59:22.000Z",
+   "title": "Rongjiang Menglonglie Hotel",
+   "text": "",
+   "lat": 26.2256,
+   "lon": 108.409,
+   "locSource": "plan",
+   "stopId": "leli",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-12-600b43-1.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-600b43-2.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-600b43-3.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-3-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-600b43-4.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-4-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-600b43-5.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-5-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-600b43-6.jpg",
+     "thumb": "journal/img/2026-10-12-600b43-6-t.jpg",
+     "w": 1600,
+     "h": 1200
     }
    ]
   }
