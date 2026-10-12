@@ -14,9 +14,10 @@
   "5719142be20d408cc01269fbd7feca7e06e551aeca8a03786da0ee10ca9da2fb",
   "f72d7f60e314f7fbd1a21d0b236583b34954a52fbcdddde9ff7548c034156251",
   "470ae015f85c534367e8afafb1f602c51c28fe6b3c7bd6cda344433c1eb722ae",
-  "172afb73492e19b416ab47202cbba6a76b0a5ac8d12a6ca147cbc56335959402"
+  "172afb73492e19b416ab47202cbba6a76b0a5ac8d12a6ca147cbc56335959402",
+  "ac33c9822fdc4d4827fd3aedde81e2feef6f165e9db19b60225fb9180582ee85"
  ],
- "updated": "2026-10-12T04:17:01.214Z",
+ "updated": "2026-10-12T04:49:19.900Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -369,6 +370,108 @@
      "thumb": "journal/img/2026-10-12-172afb-1-t.jpg",
      "w": 1291,
      "h": 1299
+    }
+   ]
+  },
+  {
+   "id": "2026-10-12-ac33c9",
+   "date": "2026-10-12T04:47:28.000Z",
+   "title": "Xiaodanjiang Miaozhiwei",
+   "text": "",
+   "lat": 26.2256,
+   "lon": 108.409,
+   "locSource": "plan",
+   "stopId": "leli",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-12-ac33c9-1.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-1-t.jpg",
+     "w": 1291,
+     "h": 1299
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-2.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-3.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-4.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-4-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-5.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-5-t.jpg",
+     "w": 739,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-6.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-6-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-7.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-7-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-8.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-8-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-9.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-9-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-10.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-10-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-11.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-11-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-12.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-12-t.jpg",
+     "w": 739,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-13.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-13-t.jpg",
+     "w": 739,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-14.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-14-t.jpg",
+     "w": 739,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-12-ac33c9-15.jpg",
+     "thumb": "journal/img/2026-10-12-ac33c9-15-t.jpg",
+     "w": 739,
+     "h": 1600
     }
    ]
   }
