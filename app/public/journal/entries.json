@@ -17,9 +17,10 @@
   "172afb73492e19b416ab47202cbba6a76b0a5ac8d12a6ca147cbc56335959402",
   "ac33c9822fdc4d4827fd3aedde81e2feef6f165e9db19b60225fb9180582ee85",
   "600b4312cd8175c3ace711db482f8247e735afc66fcaa946ebcdf41ab005f82e",
-  "f293d2d4466621668014d6dcb76d30d174b823a7760ab35bd543af523f63d2a7"
+  "f293d2d4466621668014d6dcb76d30d174b823a7760ab35bd543af523f63d2a7",
+  "6f34b89dd434da8151bb08e75a94c582a4523936a4e94b4afd3c536757a85a83"
  ],
- "updated": "2026-10-12T08:22:54.224Z",
+ "updated": "2026-10-13T10:56:00.729Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -558,6 +559,66 @@
      "thumb": "journal/img/2026-10-12-f293d2-4-t.jpg",
      "w": 739,
      "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-13-6f34b8",
+   "date": "2026-10-13T10:54:37.000Z",
+   "title": "DALI DONG VILLAGE",
+   "text": "",
+   "lat": 26.0415,
+   "lon": 108.6394,
+   "locSource": "plan",
+   "stopId": "dalidong",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-13-6f34b8-1.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-1-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-2.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-2-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-3.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-4.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-4-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-5.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-5-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-6.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-6-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-7.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-7-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-13-6f34b8-8.jpg",
+     "thumb": "journal/img/2026-10-13-6f34b8-8-t.jpg",
+     "w": 960,
+     "h": 1280
     }
    ]
   }
