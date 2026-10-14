@@ -22,9 +22,10 @@
   "1adffa13db1b80d11515a49903ac5ed015dfc808faeffecf3f548373601e51ce",
   "7243a31e7fcada26dc6fcdc54cc6af4006796ecefc88d420c314b701960abe8d",
   "57c11a24d8ca8d861129eb36e8d33dc61f3645284e4bc161ac2133d18c4669fa",
-  "e3dbffe531b085d951e81fe811daecbe20ac3fb17c9362607f33cbb75cf2d3b2"
+  "e3dbffe531b085d951e81fe811daecbe20ac3fb17c9362607f33cbb75cf2d3b2",
+  "0580043623212a75b8b3a86c8581bb847417b99e992b20cc72cc3a0dc3764e8e"
  ],
- "updated": "2026-10-14T14:17:20.980Z",
+ "updated": "2026-10-14T17:20:40.222Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -747,6 +748,30 @@
     {
      "src": "journal/img/2026-10-14-e3dbff-6.jpg",
      "thumb": "journal/img/2026-10-14-e3dbff-6-t.jpg",
+     "w": 960,
+     "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "2026-10-14-058004",
+   "date": "2026-10-14T14:35:01.000Z",
+   "title": "Road block due to mudslides on way to Congjiang",
+   "text": "",
+   "lat": 25.7573,
+   "lon": 108.9013,
+   "locSource": "plan",
+   "stopId": "congjiang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-14-058004-1.jpg",
+     "thumb": "journal/img/2026-10-14-058004-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-14-058004-2.jpg",
+     "thumb": "journal/img/2026-10-14-058004-2-t.jpg",
      "w": 960,
      "h": 1280
     }
