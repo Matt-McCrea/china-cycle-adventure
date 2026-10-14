@@ -21,9 +21,10 @@
   "6f34b89dd434da8151bb08e75a94c582a4523936a4e94b4afd3c536757a85a83",
   "1adffa13db1b80d11515a49903ac5ed015dfc808faeffecf3f548373601e51ce",
   "7243a31e7fcada26dc6fcdc54cc6af4006796ecefc88d420c314b701960abe8d",
-  "57c11a24d8ca8d861129eb36e8d33dc61f3645284e4bc161ac2133d18c4669fa"
+  "57c11a24d8ca8d861129eb36e8d33dc61f3645284e4bc161ac2133d18c4669fa",
+  "e3dbffe531b085d951e81fe811daecbe20ac3fb17c9362607f33cbb75cf2d3b2"
  ],
- "updated": "2026-10-14T04:38:57.063Z",
+ "updated": "2026-10-14T14:17:20.980Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -700,6 +701,54 @@
      "thumb": "journal/img/2026-10-14-57c11a-3-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-14-e3dbff",
+   "date": "2026-10-14T14:10:19.000Z",
+   "title": "Leli Bull Fighting Arena",
+   "text": "",
+   "lat": 25.7573,
+   "lon": 108.9013,
+   "locSource": "plan",
+   "stopId": "congjiang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-14-e3dbff-1.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-1-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-14-e3dbff-2.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-2-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-14-e3dbff-3.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-3-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-14-e3dbff-4.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-4-t.jpg",
+     "w": 1280,
+     "h": 721
+    },
+    {
+     "src": "journal/img/2026-10-14-e3dbff-5.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-5-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-14-e3dbff-6.jpg",
+     "thumb": "journal/img/2026-10-14-e3dbff-6-t.jpg",
+     "w": 960,
+     "h": 1280
     }
    ]
   }
