@@ -20,9 +20,10 @@
   "f293d2d4466621668014d6dcb76d30d174b823a7760ab35bd543af523f63d2a7",
   "6f34b89dd434da8151bb08e75a94c582a4523936a4e94b4afd3c536757a85a83",
   "1adffa13db1b80d11515a49903ac5ed015dfc808faeffecf3f548373601e51ce",
-  "7243a31e7fcada26dc6fcdc54cc6af4006796ecefc88d420c314b701960abe8d"
+  "7243a31e7fcada26dc6fcdc54cc6af4006796ecefc88d420c314b701960abe8d",
+  "57c11a24d8ca8d861129eb36e8d33dc61f3645284e4bc161ac2133d18c4669fa"
  ],
- "updated": "2026-10-14T03:17:27.640Z",
+ "updated": "2026-10-14T04:38:57.063Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -669,6 +670,36 @@
      "thumb": "journal/img/2026-10-14-7243a3-1-t.jpg",
      "w": 1280,
      "h": 960
+    }
+   ]
+  },
+  {
+   "id": "2026-10-14-57c11a",
+   "date": "2026-10-14T04:36:44.000Z",
+   "title": "Garage Lunch at Guizhou Congjiang Xiajiangzhen Jiunian",
+   "text": "",
+   "lat": 25.7573,
+   "lon": 108.9013,
+   "locSource": "plan",
+   "stopId": "congjiang",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-14-57c11a-1.jpg",
+     "thumb": "journal/img/2026-10-14-57c11a-1-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-14-57c11a-2.jpg",
+     "thumb": "journal/img/2026-10-14-57c11a-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-14-57c11a-3.jpg",
+     "thumb": "journal/img/2026-10-14-57c11a-3-t.jpg",
+     "w": 1600,
+     "h": 1200
     }
    ]
   }
