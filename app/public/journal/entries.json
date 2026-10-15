@@ -28,9 +28,10 @@
   "bf3007237386b0ae9196cce3d6b8acc5b401024aef27651afdc8e391aa92f66f",
   "0c1df0191e732fbdead32d2fe34a0ae566b1fe89efe79a9ccab0786e8d81d42f",
   "a655b3f0aeed3b68df15145df108f15f5854fc5a325503d36631d937d0441016",
-  "5d279750142a9e1e8b2acf6a0bb15b74aa9d46844f7f54e02fa35d9c045b6371"
+  "5d279750142a9e1e8b2acf6a0bb15b74aa9d46844f7f54e02fa35d9c045b6371",
+  "c6e216c3ca4ae31a559936926c04085573e3e4cf0ce1fe28dd63942a2c912df9"
  ],
- "updated": "2026-10-15T05:14:57.506Z",
+ "updated": "2026-10-15T09:44:52.587Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -935,6 +936,48 @@
      "thumb": "journal/img/2026-10-15-5d2797-3-t.jpg",
      "w": 1071,
      "h": 1428
+    }
+   ]
+  },
+  {
+   "id": "2026-10-15-c6e216",
+   "date": "2026-10-15T09:40:44.000Z",
+   "title": "Water Stop on way to Zhaoxing",
+   "text": "",
+   "lat": 25.9098,
+   "lon": 109.176,
+   "locSource": "plan",
+   "stopId": "zhaoxing",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-15-c6e216-1.jpg",
+     "thumb": "journal/img/2026-10-15-c6e216-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-15-c6e216-2.jpg",
+     "thumb": "journal/img/2026-10-15-c6e216-2-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-15-c6e216-3.jpg",
+     "thumb": "journal/img/2026-10-15-c6e216-3-t.jpg",
+     "w": 660,
+     "h": 1434
+    },
+    {
+     "src": "journal/img/2026-10-15-c6e216-4.jpg",
+     "thumb": "journal/img/2026-10-15-c6e216-4-t.jpg",
+     "w": 1031,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-15-c6e216-5.jpg",
+     "thumb": "journal/img/2026-10-15-c6e216-5-t.jpg",
+     "w": 960,
+     "h": 1280
     }
    ]
   }
