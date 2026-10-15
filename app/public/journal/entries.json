@@ -26,9 +26,10 @@
   "0580043623212a75b8b3a86c8581bb847417b99e992b20cc72cc3a0dc3764e8e",
   "96ba82a491ceb0e8d8f8a83b4f41248fd5307537529792f298f9204403fb846e",
   "bf3007237386b0ae9196cce3d6b8acc5b401024aef27651afdc8e391aa92f66f",
-  "0c1df0191e732fbdead32d2fe34a0ae566b1fe89efe79a9ccab0786e8d81d42f"
+  "0c1df0191e732fbdead32d2fe34a0ae566b1fe89efe79a9ccab0786e8d81d42f",
+  "a655b3f0aeed3b68df15145df108f15f5854fc5a325503d36631d937d0441016"
  ],
- "updated": "2026-10-15T04:17:19.113Z",
+ "updated": "2026-10-15T05:12:47.689Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -873,6 +874,36 @@
      "thumb": "journal/img/2026-10-15-0c1df0-4-t.jpg",
      "w": 960,
      "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "2026-10-15-a655b3",
+   "date": "2026-10-15T05:11:04.000Z",
+   "title": "Lunch at Huanggang Dong Villages Scenic Area",
+   "text": "",
+   "lat": 25.9098,
+   "lon": 109.176,
+   "locSource": "plan",
+   "stopId": "zhaoxing",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-15-a655b3-1.jpg",
+     "thumb": "journal/img/2026-10-15-a655b3-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-15-a655b3-2.jpg",
+     "thumb": "journal/img/2026-10-15-a655b3-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-15-a655b3-3.jpg",
+     "thumb": "journal/img/2026-10-15-a655b3-3-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
