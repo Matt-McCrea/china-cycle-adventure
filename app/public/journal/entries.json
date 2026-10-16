@@ -33,9 +33,10 @@
   "7b51021c21a8ef4ecd59e965ee2ea69cc3de0c7a365527831347e7076779d464",
   "427c346725eec366f1349cd84541c0b963b0dab2a0e17882436d7347c8eefddb",
   "368bf3170c93762aa7b75160ecaa8ba7bdeda632620f931092cc179c4d12dd7d",
-  "ba83ec08c1ea3d3136fe94eca79d267ffdc97eb65531b4eb467ccfb006ac8e5b"
+  "ba83ec08c1ea3d3136fe94eca79d267ffdc97eb65531b4eb467ccfb006ac8e5b",
+  "c5701c3d9bf7bdfd62b025583d9661575c618eaa50a36ecdf4fa68d9062e42a5"
  ],
- "updated": "2026-10-16T11:36:28.189Z",
+ "updated": "2026-10-16T13:23:20.464Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1100,6 +1101,48 @@
     {
      "src": "journal/img/2026-10-16-ba83ec-6.jpg",
      "thumb": "journal/img/2026-10-16-ba83ec-6-t.jpg",
+     "w": 1200,
+     "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-16-c5701c",
+   "date": "2026-10-16T13:22:26.000Z",
+   "title": "More Day 7 Pictures",
+   "text": "",
+   "lat": 25.7589,
+   "lon": 110.1211,
+   "locSource": "plan",
+   "stopId": "longji",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-16-c5701c-1.jpg",
+     "thumb": "journal/img/2026-10-16-c5701c-1-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-16-c5701c-2.jpg",
+     "thumb": "journal/img/2026-10-16-c5701c-2-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-16-c5701c-3.jpg",
+     "thumb": "journal/img/2026-10-16-c5701c-3-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-16-c5701c-4.jpg",
+     "thumb": "journal/img/2026-10-16-c5701c-4-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-16-c5701c-5.jpg",
+     "thumb": "journal/img/2026-10-16-c5701c-5-t.jpg",
      "w": 1200,
      "h": 1600
     }
