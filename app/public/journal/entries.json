@@ -32,9 +32,10 @@
   "c6e216c3ca4ae31a559936926c04085573e3e4cf0ce1fe28dd63942a2c912df9",
   "7b51021c21a8ef4ecd59e965ee2ea69cc3de0c7a365527831347e7076779d464",
   "427c346725eec366f1349cd84541c0b963b0dab2a0e17882436d7347c8eefddb",
-  "368bf3170c93762aa7b75160ecaa8ba7bdeda632620f931092cc179c4d12dd7d"
+  "368bf3170c93762aa7b75160ecaa8ba7bdeda632620f931092cc179c4d12dd7d",
+  "ba83ec08c1ea3d3136fe94eca79d267ffdc97eb65531b4eb467ccfb006ac8e5b"
  ],
- "updated": "2026-10-16T03:48:17.428Z",
+ "updated": "2026-10-16T11:36:28.189Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1051,6 +1052,54 @@
     {
      "src": "journal/img/2026-10-16-368bf3-1.jpg",
      "thumb": "journal/img/2026-10-16-368bf3-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-16-ba83ec",
+   "date": "2026-10-16T11:34:57.000Z",
+   "title": "Beautiful LONGJI TERRACES",
+   "text": "",
+   "lat": 25.7589,
+   "lon": 110.1211,
+   "locSource": "plan",
+   "stopId": "longji",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-16-ba83ec-1.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-1-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-16-ba83ec-2.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-16-ba83ec-3.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-16-ba83ec-4.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-4-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-16-ba83ec-5.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-5-t.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "src": "journal/img/2026-10-16-ba83ec-6.jpg",
+     "thumb": "journal/img/2026-10-16-ba83ec-6-t.jpg",
      "w": 1200,
      "h": 1600
     }
