@@ -31,9 +31,10 @@
   "5d279750142a9e1e8b2acf6a0bb15b74aa9d46844f7f54e02fa35d9c045b6371",
   "c6e216c3ca4ae31a559936926c04085573e3e4cf0ce1fe28dd63942a2c912df9",
   "7b51021c21a8ef4ecd59e965ee2ea69cc3de0c7a365527831347e7076779d464",
-  "427c346725eec366f1349cd84541c0b963b0dab2a0e17882436d7347c8eefddb"
+  "427c346725eec366f1349cd84541c0b963b0dab2a0e17882436d7347c8eefddb",
+  "368bf3170c93762aa7b75160ecaa8ba7bdeda632620f931092cc179c4d12dd7d"
  ],
- "updated": "2026-10-15T15:59:32.360Z",
+ "updated": "2026-10-16T03:48:17.428Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1034,6 +1035,24 @@
      "thumb": "journal/img/2026-10-15-427c34-2-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-16-368bf3",
+   "date": "2026-10-16T03:46:20.000Z",
+   "title": "The Empress takes flight!",
+   "text": "",
+   "lat": 25.7589,
+   "lon": 110.1211,
+   "locSource": "plan",
+   "stopId": "longji",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-16-368bf3-1.jpg",
+     "thumb": "journal/img/2026-10-16-368bf3-1-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
