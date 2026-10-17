@@ -38,9 +38,10 @@
   "2fe4eb2f0c1ae6b2ee0fdcaf8f1154597e7219d550af60539c37068af4f27b05",
   "4e697de498e3d6de1cf9f628e5f6313224da6c969800f870ca013f4182e51953",
   "b88975dcd6872d1d10f00ae6266cbec24bd5487ef87c2bc0262cd9a28076aa30",
-  "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f"
+  "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f",
+  "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23"
  ],
- "updated": "2026-10-17T14:52:49.753Z",
+ "updated": "2026-10-17T14:55:18.773Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1273,6 +1274,30 @@
     {
      "src": "journal/img/2026-10-17-402307-3.jpg",
      "thumb": "journal/img/2026-10-17-402307-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-17-26ecfd",
+   "date": "2026-10-17T14:52:50.000Z",
+   "title": "Arrived at DAXU",
+   "text": "",
+   "lat": 25.1891,
+   "lon": 110.4224,
+   "locSource": "plan",
+   "stopId": "daxu",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-17-26ecfd-1.jpg",
+     "thumb": "journal/img/2026-10-17-26ecfd-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-17-26ecfd-2.jpg",
+     "thumb": "journal/img/2026-10-17-26ecfd-2-t.jpg",
      "w": 1600,
      "h": 1200
     }
