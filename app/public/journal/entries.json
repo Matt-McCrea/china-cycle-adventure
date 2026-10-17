@@ -36,9 +36,11 @@
   "ba83ec08c1ea3d3136fe94eca79d267ffdc97eb65531b4eb467ccfb006ac8e5b",
   "c5701c3d9bf7bdfd62b025583d9661575c618eaa50a36ecdf4fa68d9062e42a5",
   "2fe4eb2f0c1ae6b2ee0fdcaf8f1154597e7219d550af60539c37068af4f27b05",
-  "4e697de498e3d6de1cf9f628e5f6313224da6c969800f870ca013f4182e51953"
+  "4e697de498e3d6de1cf9f628e5f6313224da6c969800f870ca013f4182e51953",
+  "b88975dcd6872d1d10f00ae6266cbec24bd5487ef87c2bc0262cd9a28076aa30",
+  "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f"
  ],
- "updated": "2026-10-17T14:50:16.202Z",
+ "updated": "2026-10-17T14:52:49.753Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1195,6 +1197,84 @@
      "thumb": "journal/img/2026-10-17-4e697d-3-t.jpg",
      "w": 960,
      "h": 1280
+    }
+   ]
+  },
+  {
+   "id": "2026-10-17-b88975",
+   "date": "2026-10-17T14:50:39.000Z",
+   "title": "On the road to Daxu",
+   "text": "",
+   "lat": 25.1891,
+   "lon": 110.4224,
+   "locSource": "plan",
+   "stopId": "daxu",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-17-b88975-1.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-17-b88975-2.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-17-b88975-3.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-17-b88975-4.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-4-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-17-b88975-5.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-5-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-17-b88975-6.jpg",
+     "thumb": "journal/img/2026-10-17-b88975-6-t.jpg",
+     "w": 739,
+     "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-17-402307",
+   "date": "2026-10-17T14:51:52.000Z",
+   "title": "Tea Plantation",
+   "text": "",
+   "lat": 25.1891,
+   "lon": 110.4224,
+   "locSource": "plan",
+   "stopId": "daxu",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-17-402307-1.jpg",
+     "thumb": "journal/img/2026-10-17-402307-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-17-402307-2.jpg",
+     "thumb": "journal/img/2026-10-17-402307-2-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-17-402307-3.jpg",
+     "thumb": "journal/img/2026-10-17-402307-3-t.jpg",
+     "w": 1600,
+     "h": 1200
     }
    ]
   }
