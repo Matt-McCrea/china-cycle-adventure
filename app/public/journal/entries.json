@@ -35,9 +35,10 @@
   "368bf3170c93762aa7b75160ecaa8ba7bdeda632620f931092cc179c4d12dd7d",
   "ba83ec08c1ea3d3136fe94eca79d267ffdc97eb65531b4eb467ccfb006ac8e5b",
   "c5701c3d9bf7bdfd62b025583d9661575c618eaa50a36ecdf4fa68d9062e42a5",
-  "2fe4eb2f0c1ae6b2ee0fdcaf8f1154597e7219d550af60539c37068af4f27b05"
+  "2fe4eb2f0c1ae6b2ee0fdcaf8f1154597e7219d550af60539c37068af4f27b05",
+  "4e697de498e3d6de1cf9f628e5f6313224da6c969800f870ca013f4182e51953"
  ],
- "updated": "2026-10-17T14:46:47.508Z",
+ "updated": "2026-10-17T14:50:16.202Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1164,6 +1165,36 @@
      "thumb": "journal/img/2026-10-17-2fe4eb-1-t.jpg",
      "w": 1200,
      "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-17-4e697d",
+   "date": "2026-10-17T14:47:40.000Z",
+   "title": "Tree Hungers!",
+   "text": "It’s a thousand year old tree!",
+   "lat": 25.1891,
+   "lon": 110.4224,
+   "locSource": "plan",
+   "stopId": "daxu",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-17-4e697d-1.jpg",
+     "thumb": "journal/img/2026-10-17-4e697d-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-17-4e697d-2.jpg",
+     "thumb": "journal/img/2026-10-17-4e697d-2-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-17-4e697d-3.jpg",
+     "thumb": "journal/img/2026-10-17-4e697d-3-t.jpg",
+     "w": 960,
+     "h": 1280
     }
    ]
   }
