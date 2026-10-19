@@ -42,9 +42,10 @@
   "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23",
   "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554",
   "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344",
-  "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b"
+  "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b",
+  "a791b9c27c26c82e096c519cdb1095811b259de095d636c14109c037d524c2be"
  ],
- "updated": "2026-10-19T02:04:40.457Z",
+ "updated": "2026-10-19T02:16:54.350Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1457,6 +1458,59 @@
     {
      "src": "journal/img/2026-10-19-d32ab7-8.jpg",
      "thumb": "journal/img/2026-10-19-d32ab7-8-t.jpg",
+     "w": 1200,
+     "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-a791b9",
+   "date": "2026-10-19T02:14:33.000Z",
+   "title": "New Profile Pictures",
+   "text": "",
+   "lat": 25.047872222222225,
+   "lon": 110.45568055555556,
+   "locSource": "photo",
+   "stopId": "yangshuo",
+   "place": {
+    "name": "Guilin"
+   },
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-a791b9-1.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-1-t.jpg",
+     "w": 1600,
+     "h": 1200,
+     "lat": 25.047872222222225,
+     "lon": 110.45568055555556
+    },
+    {
+     "src": "journal/img/2026-10-19-a791b9-2.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-2-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-a791b9-3.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-3-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-a791b9-4.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-4-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-a791b9-5.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-5-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-a791b9-6.jpg",
+     "thumb": "journal/img/2026-10-19-a791b9-6-t.jpg",
      "w": 1200,
      "h": 1600
     }
