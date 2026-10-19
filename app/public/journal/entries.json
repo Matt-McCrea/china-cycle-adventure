@@ -39,9 +39,10 @@
   "4e697de498e3d6de1cf9f628e5f6313224da6c969800f870ca013f4182e51953",
   "b88975dcd6872d1d10f00ae6266cbec24bd5487ef87c2bc0262cd9a28076aa30",
   "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f",
-  "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23"
+  "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23",
+  "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554"
  ],
- "updated": "2026-10-17T14:55:18.773Z",
+ "updated": "2026-10-19T01:49:00.141Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1300,6 +1301,54 @@
      "thumb": "journal/img/2026-10-17-26ecfd-2-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-8cd664",
+   "date": "2026-10-19T01:48:08.000Z",
+   "title": "Last Day - Cycling through Karst country",
+   "text": "",
+   "lat": 24.7885,
+   "lon": 110.4264,
+   "locSource": "plan",
+   "stopId": "yangshuo",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-8cd664-1.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-1-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-19-8cd664-2.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-2-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-19-8cd664-3.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-3-t.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "src": "journal/img/2026-10-19-8cd664-4.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-4-t.jpg",
+     "w": 1428,
+     "h": 1071
+    },
+    {
+     "src": "journal/img/2026-10-19-8cd664-5.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-5-t.jpg",
+     "w": 1071,
+     "h": 1428
+    },
+    {
+     "src": "journal/img/2026-10-19-8cd664-6.jpg",
+     "thumb": "journal/img/2026-10-19-8cd664-6-t.jpg",
+     "w": 1428,
+     "h": 1071
     }
    ]
   }
