@@ -40,9 +40,10 @@
   "b88975dcd6872d1d10f00ae6266cbec24bd5487ef87c2bc0262cd9a28076aa30",
   "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f",
   "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23",
-  "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554"
+  "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554",
+  "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344"
  ],
- "updated": "2026-10-19T01:49:00.141Z",
+ "updated": "2026-10-19T01:56:50.237Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1349,6 +1350,54 @@
      "thumb": "journal/img/2026-10-19-8cd664-6-t.jpg",
      "w": 1428,
      "h": 1071
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-04bfee",
+   "date": "2026-10-19T01:54:44.000Z",
+   "title": "Last day - More cycling pictures",
+   "text": "",
+   "lat": 24.7885,
+   "lon": 110.4264,
+   "locSource": "plan",
+   "stopId": "yangshuo",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-04bfee-1.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-1-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-04bfee-2.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-2-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-04bfee-3.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-04bfee-4.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-4-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-04bfee-5.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-5-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-04bfee-6.jpg",
+     "thumb": "journal/img/2026-10-19-04bfee-6-t.jpg",
+     "w": 1600,
+     "h": 1200
     }
    ]
   }
