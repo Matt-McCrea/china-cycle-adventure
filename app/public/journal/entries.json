@@ -45,9 +45,10 @@
   "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b",
   "a791b9c27c26c82e096c519cdb1095811b259de095d636c14109c037d524c2be",
   "689a31e303748f90d3b8d67a7e8074820d42aa15602deade6aef682bcc1a2072",
-  "ac17d0060213e7e5987737c29f7ef7c7a158d72f8901a1c40b782b95127d923f"
+  "ac17d0060213e7e5987737c29f7ef7c7a158d72f8901a1c40b782b95127d923f",
+  "52d91fb8445ad04caf59c031d76ac295ab466491a7751821e92b1ca63821e769"
  ],
- "updated": "2026-10-19T04:42:53.814Z",
+ "updated": "2026-10-19T05:50:26.291Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1643,6 +1644,42 @@
     {
      "src": "journal/img/2026-10-19-ac17d0-11.jpg",
      "thumb": "journal/img/2026-10-19-ac17d0-11-t.jpg",
+     "w": 1200,
+     "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-52d91f",
+   "date": "2026-10-19T05:47:11.000Z",
+   "title": "Bullet Train to HK",
+   "text": "",
+   "lat": 24.7885,
+   "lon": 110.4264,
+   "locSource": "plan",
+   "stopId": "yangshuo",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-52d91f-1.jpg",
+     "thumb": "journal/img/2026-10-19-52d91f-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-52d91f-2.jpg",
+     "thumb": "journal/img/2026-10-19-52d91f-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-52d91f-3.jpg",
+     "thumb": "journal/img/2026-10-19-52d91f-3-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-52d91f-4.jpg",
+     "thumb": "journal/img/2026-10-19-52d91f-4-t.jpg",
      "w": 1200,
      "h": 1600
     }
