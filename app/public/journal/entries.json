@@ -43,9 +43,10 @@
   "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554",
   "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344",
   "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b",
-  "a791b9c27c26c82e096c519cdb1095811b259de095d636c14109c037d524c2be"
+  "a791b9c27c26c82e096c519cdb1095811b259de095d636c14109c037d524c2be",
+  "689a31e303748f90d3b8d67a7e8074820d42aa15602deade6aef682bcc1a2072"
  ],
- "updated": "2026-10-19T02:16:54.350Z",
+ "updated": "2026-10-19T02:43:21.363Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1513,6 +1514,58 @@
      "thumb": "journal/img/2026-10-19-a791b9-6-t.jpg",
      "w": 1200,
      "h": 1600
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-689a31",
+   "date": "2026-10-19T02:39:03.000Z",
+   "title": "Last Stop - YANGSHUO",
+   "text": "",
+   "lat": 24.771874999999998,
+   "lon": 110.46427222222222,
+   "locSource": "photo",
+   "stopId": "yangshuo",
+   "place": {
+    "name": "Yangshuo",
+    "zh": "阳朔县"
+   },
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-689a31-1.jpg",
+     "thumb": "journal/img/2026-10-19-689a31-1-t.jpg",
+     "w": 1200,
+     "h": 1600,
+     "lat": 24.771874999999998,
+     "lon": 110.46427222222222
+    },
+    {
+     "src": "journal/img/2026-10-19-689a31-2.jpg",
+     "thumb": "journal/img/2026-10-19-689a31-2-t.jpg",
+     "w": 1200,
+     "h": 1600,
+     "lat": 24.776438888888887,
+     "lon": 110.48930277777778
+    },
+    {
+     "src": "journal/img/2026-10-19-689a31-3.jpg",
+     "thumb": "journal/img/2026-10-19-689a31-3-t.jpg",
+     "w": 1200,
+     "h": 1600,
+     "lat": 24.77511111111111,
+     "lon": 110.49255277777777
+    },
+    {
+     "src": "journal/img/2026-10-19-689a31-4.jpg",
+     "thumb": "journal/img/2026-10-19-689a31-4-t.jpg",
+     "w": 1600,
+     "h": 739
+    },
+    {
+     "src": "journal/img/2026-10-19-689a31-5.jpg",
+     "thumb": "journal/img/2026-10-19-689a31-5-t.jpg",
+     "w": 1600,
+     "h": 739
     }
    ]
   }
