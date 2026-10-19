@@ -44,9 +44,10 @@
   "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344",
   "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b",
   "a791b9c27c26c82e096c519cdb1095811b259de095d636c14109c037d524c2be",
-  "689a31e303748f90d3b8d67a7e8074820d42aa15602deade6aef682bcc1a2072"
+  "689a31e303748f90d3b8d67a7e8074820d42aa15602deade6aef682bcc1a2072",
+  "ac17d0060213e7e5987737c29f7ef7c7a158d72f8901a1c40b782b95127d923f"
  ],
- "updated": "2026-10-19T02:43:21.363Z",
+ "updated": "2026-10-19T04:42:53.814Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1566,6 +1567,84 @@
      "thumb": "journal/img/2026-10-19-689a31-5-t.jpg",
      "w": 1600,
      "h": 739
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-ac17d0",
+   "date": "2026-10-19T04:40:12.000Z",
+   "title": "More photos of our last day🚲",
+   "text": "",
+   "lat": 24.7885,
+   "lon": 110.4264,
+   "locSource": "plan",
+   "stopId": "yangshuo",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-ac17d0-1.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-2.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-2-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-3.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-3-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-4.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-4-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-5.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-5-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-6.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-6-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-7.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-7-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-8.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-8-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-9.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-9-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-10.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-10-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-ac17d0-11.jpg",
+     "thumb": "journal/img/2026-10-19-ac17d0-11-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
