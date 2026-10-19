@@ -41,9 +41,10 @@
   "4023072701e3c852d5631adc71c9b847ef485d73c6c63ece12e58d04960d392f",
   "26ecfd6a05536768389d54b070eb0718709856327e297dec581ed086676cba23",
   "8cd6648dfbe5ccbb4c982c12a28985bf3fcfa07f7878d2de104bc56d01213554",
-  "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344"
+  "04bfeebfb7c407dab6530e93ede491980dbc8d8778dbfe4ba4b75c1a372bf344",
+  "d32ab7b0dcf1146aa412b6121975e243c3cbc3561762167d7136566b7f71461b"
  ],
- "updated": "2026-10-19T01:56:50.237Z",
+ "updated": "2026-10-19T02:04:40.457Z",
  "entries": [
   {
    "id": "2026-09-29-499ed7",
@@ -1398,6 +1399,66 @@
      "thumb": "journal/img/2026-10-19-04bfee-6-t.jpg",
      "w": 1600,
      "h": 1200
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-d32ab7",
+   "date": "2026-10-19T02:02:37.000Z",
+   "title": "Jinlong River Boat Trip",
+   "text": "",
+   "lat": 24.7885,
+   "lon": 110.4264,
+   "locSource": "plan",
+   "stopId": "yangshuo",
+   "photos": [
+    {
+     "src": "journal/img/2026-10-19-d32ab7-1.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-1-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-2.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-2-t.jpg",
+     "w": 1550,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-3.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-3-t.jpg",
+     "w": 1500,
+     "h": 1574
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-4.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-4-t.jpg",
+     "w": 1600,
+     "h": 1200
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-5.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-5-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-6.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-6-t.jpg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-7.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-7-t.jpg",
+     "w": 1488,
+     "h": 992
+    },
+    {
+     "src": "journal/img/2026-10-19-d32ab7-8.jpg",
+     "thumb": "journal/img/2026-10-19-d32ab7-8-t.jpg",
+     "w": 1200,
+     "h": 1600
     }
    ]
   }
